@@ -10,22 +10,16 @@ The questions are organized into categories based on their topic and level of di
 SQL-Interview-Questions/
 ├── README.md
 ├── Category-1/
-│   ├── Question-1.sql
-│   ├── Solution-1.sql
-│   ├── Question-2.sql
-│   ├── Solution-2.sql
+│   ├── Question-Solution-1.sql
+│   ├── Question-Solution-2.sql
 │   └── ...
 ├── Category-2/
-│   ├── Question-1.sql
-│   ├── Solution-1.sql
-│   ├── Question-2.sql
-│   ├── Solution-2.sql
+│   ├── Question-Solution-1.sql
+│   ├── Question-Solution-2.sql
 │   └── ...
 ├── Category-3/
-│   ├── Question-1.sql
-│   ├── Solution-1.sql
-│   ├── Question-2.sql
-│   ├── Solution-2.sql
+│   ├── Question-Solution-1.sql
+│   ├── Question-Solution-2.sql
 │   └── ...
 └── ...
 ```
