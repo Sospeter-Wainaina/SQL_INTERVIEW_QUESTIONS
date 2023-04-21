@@ -32,12 +32,12 @@ Note: The SQL statements for creating and inserting data into the tables needed 
 
 Here are the categories to be included and updated in this repository:
 
-Basic SQL concepts
-Database design and modeling
-Data manipulation
-Advanced SQL concepts
-Data analysis and reporting
-Performance optimization
+* Basic SQL concepts
+* Database design and modeling
+* Data manipulation
+* Advanced SQL concepts
+* Data analysis and reporting
+* Performance optimization
 
 ## Contributing
 
