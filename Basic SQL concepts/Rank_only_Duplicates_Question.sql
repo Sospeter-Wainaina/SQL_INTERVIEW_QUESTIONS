@@ -19,4 +19,4 @@ rank() over(order by id) as rnk from dup
 )
 
 select l.*,'DUP'+cast(cr.rnk as varchar) as con from list l
-left join cte_rank cr on cr.id=l.id
+left join cte_rank cr on cr.id =l.id
