@@ -1,4 +1,4 @@
-index,City,Date,Card Type,Exp Type,Gender,Amount
+index,City,Date,Card_Type,Exp_Type,Gender,Amount
 0,"Delhi, India",29-Oct-14,Gold,Bills,F,82475
 1,"Greater Mumbai, India",22-Aug-14,Platinum,Bills,F,32555
 2,"Bengaluru, India",27-Aug-14,Silver,Bills,F,101738
