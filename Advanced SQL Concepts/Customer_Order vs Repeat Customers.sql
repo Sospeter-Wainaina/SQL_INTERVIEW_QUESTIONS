@@ -11,3 +11,18 @@
 
 -- Expected Output is -> Order_date,New_customer_count,Repeat_customer_Count
 
+with cte as (
+select 
+customer_id,
+min(order_date) as first_order_dt
+from customer_orders
+group by customer_id)
+select c.order_date,
+sum(case when first_order_dt = c.order_date then 1 else 0 end) as New_customer_count,
+sum(case when first_order_dt <> c.order_date then 1 else 0 end) as Repeat_customer_Count,
+sum(case when  first_order_dt = c.order_date then c.order_amount else 0 end) as New_Customer_Order_Amn,
+sum(case when  first_order_dt <> c.order_date then c.order_amount else 0 end) as Repeat_Customer_Order_Amn
+ from cte t 
+inner join customer_orders c on t.customer_id = c.customer_id
+group by c.order_date
+order by c.order_date
